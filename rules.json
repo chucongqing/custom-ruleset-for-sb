@@ -1,0 +1,267 @@
+[
+  {
+    "tag": "geosite-cn",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-cn.srs"
+  },
+  {
+    "tag": "geosite-bilibili",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-bilibili.srs"
+  },
+  {
+    "tag": "geosite-bilibili2",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-bilibili2.srs"
+  },
+  {
+    "tag": "geosite-bilibili-cdn",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-bilibili-cdn.srs"
+  },
+  {
+    "tag": "geosite-bilibili-game",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-bilibili-game.srs"
+  },
+  {
+    "tag": "geosite-iqiyi",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-iqiyi.srs"
+  },
+  {
+    "tag": "geosite-youku",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-youku.srs"
+  },
+  {
+    "tag": "geosite-tencent",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-tencent.srs"
+  },
+  {
+    "tag": "geosite-tencent-dev",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-tencent-dev.srs"
+  },
+  {
+    "tag": "geosite-tencent-games",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-tencent-games.srs"
+  },
+  {
+    "tag": "geosite-tencent-tme",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-tencent-tme.srs"
+  },
+  {
+    "tag": "geosite-sina",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-sina.srs"
+  },
+  {
+    "tag": "geosite-baidu",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-baidu.srs"
+  },
+  {
+    "tag": "geosite-alibaba",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-alibaba.srs"
+  },
+  {
+    "tag": "geosite-alibaba-cn",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-alibaba@cn.srs"
+  },
+  {
+    "tag": "geosite-alibabacloud",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-alibabacloud.srs"
+  },
+  {
+    "tag": "geosite-alibabacloud-cn",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-alibabacloud@cn.srs"
+  },
+  {
+    "tag": "geosite-aliyun",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-aliyun.srs"
+  },
+  {
+    "tag": "geosite-aliyun-drive",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-aliyun-drive.srs"
+  },
+  {
+    "tag": "geosite-jd",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-jd.srs"
+  },
+  {
+    "tag": "geosite-netease",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-netease.srs"
+  },
+  {
+    "tag": "geosite-douyin",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-douyin.srs"
+  },
+  {
+    "tag": "geosite-kuaishou",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-kuaishou.srs"
+  },
+  {
+    "tag": "geosite-xiaohongshu",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-xiaohongshu.srs"
+  },
+  {
+    "tag": "geosite-zhihu",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-zhihu.srs"
+  },
+  {
+    "tag": "geosite-meituan",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-meituan.srs"
+  },
+  {
+    "tag": "geosite-didi",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-didi.srs"
+  },
+  {
+    "tag": "geosite-eleme",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-eleme.srs"
+  },
+  {
+    "tag": "geosite-ctrip",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-ctrip.srs"
+  },
+  {
+    "tag": "geosite-sogou",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-sogou.srs"
+  },
+  {
+    "tag": "geosite-qihoo360",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-qihoo360.srs"
+  },
+  {
+    "tag": "geosite-xunlei",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-xunlei.srs"
+  },
+  {
+    "tag": "geosite-ximalaya",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-ximalaya.srs"
+  },
+  {
+    "tag": "geosite-huawei",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-huawei.srs"
+  },
+  {
+    "tag": "geosite-huawei-dev",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-huawei-dev.srs"
+  },
+  {
+    "tag": "geosite-huaweicloud",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-huaweicloud.srs"
+  },
+  {
+    "tag": "geosite-xiaomi",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-xiaomi.srs"
+  },
+  {
+    "tag": "geosite-xiaomi-ai",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-xiaomi-ai.srs"
+  },
+  {
+    "tag": "geosite-xiaomi-iot",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-xiaomi-iot.srs"
+  },
+  {
+    "tag": "geosite-acfun",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-acfun.srs"
+  },
+  {
+    "tag": "geosite-douban",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-douban.srs"
+  },
+  {
+    "tag": "geosite-eastmoney",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-eastmoney.srs"
+  },
+  {
+    "tag": "geosite-58tongcheng",
+    "type": "local",
+    "format": "binary",
+    "path": "D:\\Dev\\sing-geosite\\geosite-58tongcheng.srs"
+  },
+  {
+    "tag": "geoip-cn",
+    "type": "remote",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+    "download_detour": "proxy"
+  }
+]
