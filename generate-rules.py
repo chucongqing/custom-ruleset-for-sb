@@ -1,19 +1,29 @@
 #!/usr/bin/env python3
-"""Generate rules.json with absolute paths from rules.json.template."""
+"""Generate rules.json with absolute paths from rules.json.template.
+
+Supports Windows, Linux, and macOS by using the native path separator.
+"""
 
 import json
 import os
+import platform
 import sys
 from pathlib import Path
 
 
 def resolve_path(base_dir: Path, rel_path: str) -> str:
-    """Resolve a relative path to an absolute Windows-style path."""
-    # Handle both / and \ in template
-    parts = rel_path.replace("/", os.sep).replace("\\", os.sep).split(os.sep)
+    """Resolve a relative path to an absolute path in the current OS format."""
+    # Normalize template separators to the OS separator
+    normalized = rel_path.replace("/", os.sep).replace("\\", os.sep)
+    parts = normalized.split(os.sep)
     resolved = base_dir.joinpath(*parts).resolve()
-    # Return Windows-style backslash path
-    return str(resolved).replace("/", "\\")
+
+    if platform.system() == "Windows":
+        # JSON-friendly double backslash representation for sing-box on Windows
+        return str(resolved).replace("/", "\\")
+    else:
+        # POSIX-style path for Linux/macOS
+        return str(resolved)
 
 
 def generate_rules_json(template_path: Path, output_path: Path) -> None:
