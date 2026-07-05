@@ -258,6 +258,18 @@
     "path": "sing-geosite\\geosite-58tongcheng.srs"
   },
   {
+    "tag": "geosite-steam-cn",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-steam@cn.srs"
+  },
+  {
+    "tag": "geosite-steam",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-steam.srs"
+  },
+  {
     "tag": "geoip-cn",
     "type": "remote",
     "format": "binary",

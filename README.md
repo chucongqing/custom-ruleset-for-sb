@@ -18,6 +18,7 @@ A curated collection of [sing-box](https://github.com/SagerNet/sing-box) rule-se
 | Search / Tools | baidu, sogou, qihoo360, xunlei |
 | Shopping | alibaba, jd |
 | Cloud / Tech | aliyun, huawei, xiaomi |
+| Gaming | steam |
 | Travel / Lifestyle | meituan, didi, eleme, ctrip |
 | Finance / Others | eastmoney, 58tongcheng, netease, ximalaya |
 
@@ -144,7 +145,9 @@ geosite:xiaomi-iot,
 geosite:acfun,
 geosite:douban,
 geosite:eastmoney,
-geosite:58tongcheng
+geosite:58tongcheng,
+geosite:steam-cn,
+geosite:steam
 ```
 
 And for IP:
@@ -154,6 +157,13 @@ geoip:cn
 ```
 
 Add these to a routing rule with outbound set to `direct`.
+
+For Steam downloads specifically, you can also add these domain suffixes directly if needed:
+
+```text
+steamcontent.com,
+steamserver.net
+```
 
 ## License
 
