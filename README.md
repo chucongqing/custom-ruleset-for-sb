@@ -5,8 +5,9 @@ A curated collection of [sing-box](https://github.com/SagerNet/sing-box) rule-se
 ## Features
 
 - Covers major Chinese video, social, shopping, search, travel, and tech services
-- Uses relative paths to the bundled `sing-geosite` submodule
-- Includes convenient update scripts for both Bash and PowerShell
+- Uses a bundled `sing-geosite` submodule for rule-set data
+- Generates absolute-path `rules.json` automatically via Python script
+- Supports Windows, Linux, and macOS
 
 ## Included Services
 
@@ -34,36 +35,67 @@ If already cloned without submodules:
 git submodule update --init --recursive
 ```
 
+### Generate `rules.json`
+
+The repository does not include `rules.json` directly. Generate it from the template:
+
+```bash
+python generate-rules.py
+```
+
+Or use `make`:
+
+```bash
+make generate
+make all    # same as make generate
+```
+
+This produces `rules.json` with absolute paths to the `sing-geosite` submodule.
+
 ### Update ruleset data
 
 The `sing-geosite` submodule tracks the `rule-set` branch.
 
-**Bash / Git Bash:**
-
 ```bash
-bash update-ruleset.sh
+python update-ruleset.py
 ```
 
-**PowerShell:**
+Or use `make`:
 
-```powershell
-.\update-ruleset.ps1
+```bash
+make update
+```
+
+### Available Makefile targets
+
+```bash
+make generate   # Generate rules.json from template
+make update     # Update sing-geosite submodule to latest rule-set
+make clean      # Remove generated rules.json
+make all        # Run generate (default)
+make help       # Show available targets
 ```
 
 ### Use with sing-box
 
-Reference the `rules.json` file in your sing-box configuration. The rule-sets inside use relative paths like:
+Reference the generated `rules.json` in your sing-box configuration. Example rule-set entry:
 
 ```json
 {
   "tag": "geosite-bilibili",
   "type": "local",
   "format": "binary",
-  "path": "sing-geosite\\geosite-bilibili.srs"
+  "path": "C:\\path\\to\\custom-ruleset-for-sb\\sing-geosite\\geosite-bilibili.srs"
 }
 ```
 
-Make sure the `sing-geosite` directory is present alongside `rules.json` in your sing-box working directory.
+On Linux/macOS the path will be POSIX-style:
+
+```json
+{
+  "path": "/path/to/custom-ruleset-for-sb/sing-geosite/geosite-bilibili.srs"
+}
+```
 
 ### Use with v2rayN
 
