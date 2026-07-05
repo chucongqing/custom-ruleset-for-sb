@@ -1,0 +1,3 @@
+[submodule "sing-geosite"]
+	path = sing-geosite
+	url = https://github.com/SagerNet/sing-geosite.git
