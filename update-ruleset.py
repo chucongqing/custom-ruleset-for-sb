@@ -19,7 +19,7 @@ def main() -> None:
 
     print("Updating sing-geosite submodule to latest rule-set...")
     run(["git", "submodule", "update", "--init", "--recursive"], cwd=repo_root)
-    run(["git", "submodule", "update", "--remote", "--merge", "sing-geosite"], cwd=repo_root)
+    run(["git", "submodule", "update", "--remote", "sing-geosite"], cwd=repo_root)
     print("Done.")
 
 

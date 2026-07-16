@@ -2,3 +2,6 @@
 	path = sing-geosite
 	url = https://github.com/SagerNet/sing-geosite.git
 	branch = rule-set
+[submodule "ipranges-singbox"]
+	path = ipranges-singbox
+	url = https://github.com/you-oops-dev/ipranges-singbox

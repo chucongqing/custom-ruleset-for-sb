@@ -270,6 +270,78 @@
     "path": "sing-geosite\\geosite-steam.srs"
   },
   {
+    "tag": "geosite-google",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-google.srs"
+  },
+  {
+    "tag": "geoip-google",
+    "type": "local",
+    "format": "binary",
+    "path": "ipranges-singbox\\google\\google.srs"
+  },
+  {
+    "tag": "geoip-google-all",
+    "type": "local",
+    "format": "binary",
+    "path": "ipranges-singbox\\google-all\\google-all.srs"
+  },
+  {
+    "tag": "geosite-youtube",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-youtube.srs"
+  },
+  {
+    "tag": "geosite-facebook",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-facebook.srs"
+  },
+  {
+    "tag": "geosite-instagram",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-instagram.srs"
+  },
+  {
+    "tag": "geosite-twitter",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-twitter.srs"
+  },
+  {
+    "tag": "geosite-reddit",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-reddit.srs"
+  },
+  {
+    "tag": "geosite-github",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-github.srs"
+  },
+  {
+    "tag": "geosite-telegram",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-telegram.srs"
+  },
+  {
+    "tag": "geosite-whatsapp",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-whatsapp.srs"
+  },
+  {
+    "tag": "geosite-discord",
+    "type": "local",
+    "format": "binary",
+    "path": "sing-geosite\\geosite-discord.srs"
+  },
+  {
     "tag": "geoip-cn",
     "type": "remote",
     "format": "binary",
